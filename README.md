@@ -1,6 +1,7 @@
 # odin-landing-page
 Lading page for the css project of The Oding Project, where i'll try to implement the css knowledge by making a landing page with all the items in place.
 
+Final product should look like: <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png"></img>
 
 Images 
 * Intro Image
