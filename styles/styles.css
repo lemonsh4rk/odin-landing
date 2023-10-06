@@ -35,11 +35,18 @@ body {
 button {
   background-color: #3882F6;
   color: #F9FAF8;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 20px;
+  text-align: center;
+  font-weight: bold;
 }
 
 footer {
   color: #F9FAF8;
   text-align: center;
+  margin-top: auto;
+  padding: 20px;
 }
 
 .header, footer, .intro {
@@ -79,7 +86,7 @@ footer {
   flex-direction: column;
   flex-wrap: wrap;
   gap: 50px;
-  padding: 40px 0;
+  padding: 40px 150px;
   margin-bottom: 60px;
 }
 
@@ -95,18 +102,29 @@ footer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 30px;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .quote {
   background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  padding: 100px 200px 100px 200px;
+  gap: 20px;
 }
 
 .quote-text {
   font-size: 36px;
   font-style: italic;
   color: #1F2937;
+  display: flex;
+}
+
+.quote-author {
+  display: flex;
+  align-self: flex-end;
+  font-size: 28px;
+  font-weight: bold;
 }
 
 .info-item {
@@ -120,4 +138,26 @@ footer {
 
 .info-text {
   text-align: center;
+}
+
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.signup-call {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 40px 80px;
+  border-radius: 10px;
+}
+
+.signup-title {
+  font-weight: bolder;
+  font-size: 24px;
 }
